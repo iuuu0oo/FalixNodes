@@ -15,7 +15,7 @@ import requests
 from seleniumbase import SB
 
 # ---------- 配置 ----------
-BASE_URL = "https://client.falixnodes.net"
+BASE_URL = "https://dash.hidencloud.com/auth/login"
 LOGIN_URL = f"{BASE_URL}/auth/login"
 OUTPUT_DIR = Path("output/falix")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
